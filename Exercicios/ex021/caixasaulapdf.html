@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textando</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: aliceblue;
+            margin: 7px;
+        }
+
+        header {
+            border: 3px solid black;
+            padding: 5px;
+        }
+
+        nav {
+            border: 3px solid black;
+        }
+
+        nav > a {
+            margin-right: 50px;
+        }
+
+        main {
+            border: 3px solid black;
+            padding: 5px;
+        }
+
+        section {
+            border: 3px solid black;
+            padding-top: 20px;
+            padding-right: 1px;
+            padding-bottom: 20px;
+            padding-left: 1px;
+        }
+
+        section > article.principal {
+            border: 3px solid black;
+            margin: 10px;
+            padding: 100px;
+        }
+
+        section > article.secundario {
+            border: 3px solid black;
+            margin: 10px;
+            padding: 100px;
+        }
+
+        article > aside {
+            border: 3px solid black;
+            margin: 10px;
+            padding: 100px 30px;
+        }
+
+        aside {
+            border: 3px solid black;
+            margin: 10px;
+            padding: 100px 30px;
+        }
+
+        footer {
+            margin: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site de Teste</h1>
+        <nav>
+            <a href="#">Link de Texte</a>
+            <a href="#">Link de Texte</a>
+            <a href="#">Link de Texte</a>
+            <a href="#">Link de Texte</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class="principal">
+                <h2>Título</h2>
+                <p>Texto do artigo, blá blá blá blá blá blá blá blá blá</p>
+            </article>
+            <article class="secundario">
+                <h2>Título</h2>
+                <p>Texto do artigo, blá blá blá blá blá blá blá blá blá</p>
+                <aside>
+                    Conteúdo periferico do artigo
+                </aside>
+            </article>
+        </section>
+        <aside>
+            Conteúdo periferico do site
+        </aside>
+    </main>
+    <footer>
+        Conteúdo do Rodapé
+    </footer>
+</body>
+</html>

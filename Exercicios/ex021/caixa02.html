@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blanchedalmond;
+            margin: 0px;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.507);
+        }
+
+        footer {
+            background-color: darkgreen;
+            color: whitesmoke;
+            text-align: center;
+            border: 2px dashed green;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article {
+            background-color: lightgreen;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: lightseagreen;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.685);
+            height: 200px;
+            width: 400px;
+            margin: 10px 10px 10px 65%
+        }
+
+        nav {
+            background-color: grey;
+            padding: 1px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.384)
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        div.bola {
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            margin: 10px 10px 10px 80%;
+            border-radius: 50%;
+        }
+
+        article > p.justo {
+            height: auto;
+            width: 700px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section class="assuntos">
+            <aside>
+                <h2>Blaa blaa</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur!</p>
+            </aside>
+        </section>
+        <section class="noticias">
+            <article>
+                <h2>Título do article</h2>
+                <p>Pequeno texto que esta dentro de article mas fora de aside.</p>
+                <p class="justo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum repellendus quam temporibus mollitia suscipit, repellat esse ratione vel qui fugit sapiente dignissimos id ipsa culpa perspiciatis dolore optio iusto quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laudantium nam autem dolorem harum nostrum fugiat quis, molestiae distinctio reiciendis neque totam similique? Soluta aliquid impedit nihil inventore, nesciunt natus!</p>
+                <aside>
+                    <h2>Blá blá blá</h2>
+                    <p>Artigo escrito por José da Siva</p>
+                    <p>Blá bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla...</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Video</p>
+    </footer>
+    <div class="bola"></div>
+</body>
+</html>

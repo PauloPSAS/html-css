@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url(root.css);
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-extra);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor-extra1), var(--cor-extra2));
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 4.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.250);
+}
+
+main {
+    background-color: var(--cor0);
+    min-width: 280px;
+    max-width: 850px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.250);
+}
+
+main p {
+     font-size: 1.5em;
+     text-align: justify;
+     line-height: 1.5em;
+     text-indent: 1.5em;
+}
+
+main img {
+    width: 90%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+section abbr {
+    text-decoration: none;
+}
+
+section ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+section a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-indent: 3em;
+    line-height: 1.5em;
+}
+
+section li {
+    padding: 5px;
+    color: var(--cor5);
+}
+
+section li:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+footer {
+    background-color: var(--cor-extra1);
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    color: var(--cor-extra4);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
